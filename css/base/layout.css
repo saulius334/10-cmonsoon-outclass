@@ -1,0 +1,76 @@
+
+.first-section {
+    background-image: url('../../img/background.png');
+    background-repeat: repeat-x;
+}
+/* padaryti rows kaip viena*/
+.firstrow {
+    background-color: cornflowerblue;
+    width: 50%;
+    margin-inline: 25%;
+    background-image: url('../../img/background.png');
+    background-repeat: repeat-x;
+}
+.firstrow img {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+}
+h1 {
+    background-color: beige;
+    font-size: 40px;
+}
+p {
+    background-color: blueviolet;
+    color: #aaa
+}
+.clock {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.form {
+    display: block;
+}
+.mouse {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.secondrow {
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    margin-inline: 25%;
+}
+/*padaryti columns kaip viena*/
+.first-column {
+    float: left;
+    width: 50%;
+    background-color: darkcyan;
+}
+.pgrbar {
+    background-color: darkmagenta;
+    width: 100%;
+    height: 100px;
+}
+.second-column {
+    width: 50%;
+    float: left;
+    background-color: aquamarine;
+}
+footer {
+    background-color: #03A9F5;
+}
+.thirdrow {
+    width: 50%;
+    margin-inline: 25%;
+}
+.socials {
+    text-align: center;
+    display: inline-block;
+}
+.divider {
+    width: 100%;
+    border: 1px solid black;
+}
