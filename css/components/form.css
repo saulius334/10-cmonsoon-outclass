@@ -1,0 +1,14 @@
+.form {
+    display: block;
+}
+.form.email {
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    padding: 5px 1px;
+    letter-spacing: 0.3px;
+    background-color: transparent;
+}
+::placeholder {
+    color: #fff;
+}
